@@ -131,7 +131,7 @@ export default function FormularioModal({ visible, onClose, paqueteId }) {
     }
 
     try {
-      await fetch("http://localhost:3001/api/notificar-solicitud", {
+      await fetch("https://iurisdice.onrender.com/api/notificar-solicitud", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
